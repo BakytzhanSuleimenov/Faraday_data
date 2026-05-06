@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.abacusai
+.vscode
+
+# Data files, available from NetZero Centre Hugging Face repository
+*.parquet
+*.zip
+*.xlsx
+
