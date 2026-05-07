@@ -1,7 +1,7 @@
 # Faraday Data Extractor (Notebook)
 
 This repository contains a Jupyter notebook for extracting and
-analyzing data from the Net Zero Centre Faraday Tool dataset hosted
+analyzing data from the Centre for Net Zero's Faraday Tool dataset hosted
 on the Hugging Face platform.
 
 The notebook provides a **Polars-based workflow** to:
@@ -21,7 +21,6 @@ The notebook provides a **Polars-based workflow** to:
 
 ## Requirements
 
-From `pyproject.toml`:
 - Python `>=3.12`
 - `polars`
 - `matplotlib`
@@ -53,12 +52,6 @@ The notebook expects parquet data under:
 Update this path in notebook cells if your local dataset location is different.
 
 ## Typical Usage in Notebook
-
-The notebook defines helper functions such as:
-- `extract_by_property_type(...)`
-- `extract_by_energy_rating(...)`
-- `extract_filtered(...)`
-- `visualize_by_tariff_type(...)`
 
 Example workflow:
 1. Filter by property type and/or BER band
